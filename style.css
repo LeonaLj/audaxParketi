@@ -15,6 +15,51 @@ body {
   overflow-x: hidden !important;
 }
 
+/* sport pod */
+.product-small-img img{
+  height: 92px;
+  margin: 10px 0px;
+  cursor: pointer;
+  display: block;
+  opacity: .6;
+  border-radius: 8px;
+}
+
+.product-small-img img:hover {
+  opacity: 1;
+}
+
+.product {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.img-container img{
+  height: 500px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.img-container {
+  margin: 10px 0 0 10px;
+}
+
+.sport-char span {
+  color: olive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sport-char p {
+  padding: 20px 0;
+}
+
+.sport-char ul li {
+  color: olive;
+}
+
+/* sport pod */
+
 /* NEW HERO */
 /* The hero image */
 .hero-image {
